@@ -1,0 +1,56 @@
+/* src/styles.css */
+
+/* Global page styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+/* Blog Editor Styles */
+.container {
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.title-text {
+  font-size: 32px;
+  font-weight: 600;
+  color: #333333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.textfield-title {
+  margin-bottom: 20px;
+}
+
+.jodit-editor {
+  border: 1px solid #d1d1d1;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #fdfdfd;
+}
+
+.save-button {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.save-button button {
+  background-color: #3f51b5;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 6px;
+  transition: background-color 0.3s;
+}
+
+.save-button button:hover {
+  background-color: #2e45a3;
+}
+
